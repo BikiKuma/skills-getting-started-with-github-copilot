@@ -128,6 +128,27 @@ h5 {
   font-size: 0.9em;
 }
 
+/* Participant row layout and delete button */
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 0.95em;
+  padding: 6px 8px;
+  border-radius: 4px;
+}
+
+.delete-participant:hover {
+  background: rgba(198, 40, 40, 0.08);
+}
+
 .form-group {
   margin-bottom: 15px;
 }
